@@ -1,0 +1,43 @@
+.singleoffer-container{
+    margin-top: 50px;
+    padding: 5rem;
+    margin-left:200px;
+    background-color: white;
+    .singleoffer-head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        .singleoffer-btngrp{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            .singleoffer-btn{
+                border: none;
+                border-radius: 10px;
+                outline: none;
+                padding: 1rem 1.5rem;
+                color: black;
+                background-color: #00ff9f;
+                font-size: 110%;
+                &:hover{
+                    color: white;
+                    background-color: black;
+                }
+            }
+        }
+    }
+    .singleoffer-body{
+        padding: 4rem 0;
+        display: flex;
+        .singleoffer-content{
+            padding: 2rem 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            h2{
+                color: #00ff9f;
+            }
+        }
+    }
+}

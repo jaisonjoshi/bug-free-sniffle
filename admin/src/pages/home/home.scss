@@ -1,0 +1,47 @@
+.home-body{
+    margin-top: 50px;
+    padding-top: 4rem;
+    margin-left:300px;
+    display: flex;
+    .left{
+        flex: 2;
+        .home-left-header{
+            display: flex;
+            .home-left-img{
+                width: 39%;
+                padding: 2rem;
+                padding-left: 0;
+                display: flex;
+                align-items: flex-start;
+                border-radius: 10px;
+                img{
+                    width: 98%;
+                    border-radius: 10px;
+                }
+            }
+            .home-left-widgets{
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .widgets{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    padding: 2rem 0;
+                }
+            }
+
+        }
+        
+        .home-bid{
+            height: 450px;
+            
+        }
+        
+    }
+    .right{
+        flex: 1;
+    }
+
+}

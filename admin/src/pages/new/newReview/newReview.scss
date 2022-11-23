@@ -1,0 +1,57 @@
+.newreview-body{
+    margin-top: 50px;
+    padding: 5rem;
+    margin-left:200px;
+    .newreviewform-container{
+        padding: 4rem 0 0 0;
+        width: 60%;
+
+        form{
+            .form-item{
+                display: flex;
+                align-items: center;
+                padding: .5rem 0 1rem;
+                label{
+                    font-size: 120%;
+                }
+                input,textarea{
+                    width: 50%;
+                    margin-right: 30%;
+                    margin-left: auto;
+                    outline: none;
+                    padding: .6rem 1.5rem;
+                    font-size: 110%;
+                    border: none;
+                    border-radius: 10px;  
+                    background-color: rgb(229, 229, 229);  
+                    color: rgb(61, 61, 61);            }
+                    textarea{
+                        resize: vertical;
+                    }
+            }
+            .review-form-submit{
+                display: flex;
+                justify-content: flex-end;
+                padding: 1rem 0;
+
+                button{
+                    border: none;
+                    outline: none;
+                    padding: 0.5rem 1rem;
+                    font-size: 120%;
+                    border-radius: 10px;
+                    background-color: #00ff9f;
+                    color: black;
+                    margin-right: 30%;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        
+    }
+
+}

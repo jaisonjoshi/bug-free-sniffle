@@ -1,0 +1,29 @@
+.offers-body{
+    margin-top: 50px;
+    padding: 5rem;
+    margin-left:200px;
+    background-color: white;
+    .offers-body-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 4rem ;
+        a{
+            text-decoration: none;
+            background-color: #00ff9f;
+            padding: 1rem;
+            color: black;
+            border-radius: 10px;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+    .offer-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4.9%;
+    }
+
+}

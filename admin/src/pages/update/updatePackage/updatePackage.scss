@@ -1,0 +1,150 @@
+.newpackage-body{
+    margin-top: 50px;
+    padding: 5rem;
+    margin-left:200px;
+    .new-package-box{
+        display: flex;
+        .newpackageform-container{
+            padding: 4rem 0 0 0;
+            width: 60%;
+            padding: 4rem 0 0 0;
+                width: 50%;
+    
+            form{
+                .form-item-file{
+                    display: flex;
+                    gap: 10px;
+                    font-size: 120%;
+                    align-items: center;
+                    padding: 1rem 0 2rem;
+                    label{
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                        .upload-icn{
+                            font-size: 190%;
+                            
+                        }
+                    }
+                    input{
+                        display: none;
+                    }
+                }
+                .form-item{
+                    display: flex;
+                    align-items: center;
+                    padding: .5rem 0 1rem;
+                    .scroll::-webkit-scrollbar{
+                        display: none;
+                    }
+                    label{
+                        font-size: 120%;
+                    }
+                    input, textarea{
+                        width: 50%;
+                        max-width: 50%;
+                        min-width: 50%;
+                        margin-right: 30%;
+                        margin-left: auto;
+                        outline: none;
+                        padding: .6rem 1.5rem;
+                        font-size: 110%;
+                        border: none;
+                        border-radius: 10px;  
+                        background-color: rgb(229, 229, 229);  
+                        color: rgb(61, 61, 61);            }
+                }
+                .package-form-submit{
+                    display: flex;
+                    justify-content: flex-end;
+                    padding: 1rem 0;
+    
+                    button{
+                        border: none;
+                        outline: none;
+                        padding: 0.5rem 1rem;
+                        font-size: 120%;
+                        border-radius: 10px;
+                        background-color: #00ff9f;
+                        color: black;
+                        margin-right: 30%;
+                        &:hover{
+                            background-color: black;
+                            color: white;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .shedule-input-con{
+                    padding: 1rem 0;
+                    button{
+                        padding: .5rem .5rem;
+                        border-radius: 10px;
+                        outline: none;
+                        border: none;
+                        background-color: rgb(91, 91, 91);
+                        color: white;
+                        &:hover{
+                            background-color: black;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .form-test{
+            width: 50%;
+            background-color: white ;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            .img-container{
+                display: flex;
+                justify-content: flex-start;
+                gap: 5%;
+                flex-wrap: wrap;
+                img{
+                    width: 30%;
+                }
+            }
+            .package-details{
+                padding: 2rem 0;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .package-details-flex{
+                    display: flex;
+                    padding: 1rem 0;
+                    justify-content: flex-start;
+                    gap: 3rem;
+                    h3{
+                        padding: .6rem 1.5rem;
+                        background-color: #00ff9f;
+                        border-radius: 50px;
+                    }
+                }
+                .package-details-flex-2{
+                    display: flex;
+                    padding: 1rem 0;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 5px;
+                    
+                }
+            }
+            .package-shedule{
+                .shedule-con{
+                    padding: 1rem 0;
+                    .shedule-card{
+                        display: flex;
+                        padding: 1rem ;
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+                }
+            }
+            
+        }
+    }
+
+}

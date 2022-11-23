@@ -1,0 +1,108 @@
+.singleBid-container{
+    margin-top: 50px;
+    padding: 5rem;
+    margin-left:200px;
+    background-color: white;
+}
+.bid-card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    padding:  3rem;
+    width: 90%;
+    margin-top: 2rem;
+    background-color: #ffffff;
+    
+    .bid-card-con{
+        display: flex;
+        .bid-card-left{
+            width: 50%;
+        }
+        .bid-card-right{
+            width: 50%;
+            table{
+                margin-top: 10px;
+                font-size: 130%;
+                td{
+                    padding: 10px 10px 10px 0;
+                }
+            }
+        }
+    }
+    .bid-card-footer{
+        width: 100%;
+        padding: 1rem;
+        .hotel-bid-card{
+            width: 50%;
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem;
+            box-shadow: rgba(104, 107, 110, 0.2) 0px 8px 24px;
+            h4{
+                color: rgba(0, 0, 0, 0.8) !important;
+            }
+        }
+    }
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #00ff9f;
+    
+}
+.bid-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .bid-header-left{
+        display: flex;
+        width: 50%;
+        align-items: flex-start;
+        .head{
+            display: flex;
+
+        
+        gap: 1rem;
+        font-size: 150%;
+        align-items: center;
+        font-weight: 800;
+        
+        .icon{
+            font-size: 160%;
+        }
+        h1{
+            font-size: 130% !important;
+        }
+        }
+    }
+    
+}
+.bid-body{
+    display: flex;
+    .date-con{
+        padding: 2rem 1rem 1rem;
+        display: flex;
+        gap: 2rem;
+        .icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .checkin, .checkout{
+            border-left: 2px solid rgb(105, 105, 105);
+            padding-left: 1rem;
+        }
+    }
+}
+.bid-footer{
+    padding: 1rem 1rem 0;
+    display: flex;
+    gap: 20px;
+    .footer-card{
+        padding: .5rem 1rem;
+        border-radius: 10px;
+        background-color: #00ff9f;
+    }
+}
+.bid-footer-2{
+    padding:3rem 1rem;
+}

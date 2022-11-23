@@ -1,0 +1,37 @@
+.package-card{
+    width: 30%;
+    max-width: 30%;
+    padding-bottom: 5rem;
+    cursor: pointer;
+    .package-card-img{
+        width: 100%;
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+    .package-card-body{
+        padding: 1rem 0 .5rem;
+        
+        p{
+            color: rgba(0, 0,0, 0.8);
+        }
+    }
+    .package-card-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            color: #00ff9f;
+            display: flex;
+            align-items: center;
+        }
+        h3{
+            font-size: 110%;
+            margin: 1rem 0 0 0;
+            color: rgba(0, 0, 0, 0.706);
+            
+        }
+       
+    }
+}
