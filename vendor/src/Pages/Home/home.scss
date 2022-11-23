@@ -1,0 +1,75 @@
+.header{
+    width: 100%;
+    a{
+        text-decoration: none;
+    }
+    .profile-box{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        display: flex;
+        background-color: #00ff9f;
+        padding:10px;
+        padding-left: 30px;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        font-weight: 500;
+        border-radius: 10000px;
+        height: 55px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;        span{
+            font-size: 90%;
+        }
+        .profilename{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        cursor: pointer;
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+    }
+    .logout-box{
+        position: absolute;
+        top: 5rem;
+        right: 2rem;
+        display: flex;
+        background-color: #00ff9f;
+        padding:10px;
+        padding-left: 20px;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        font-weight: 500;
+        border-radius: 10000px;
+        height: 55px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;        span{
+            font-size: 90%;
+    }}
+}
+img{
+    width: 100%;
+}
+.login-btn{
+    position: absolute;
+    top: 1rem;
+    right: 15rem;
+    display: flex;
+    background-color: #00ff9f;
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+    border-radius: 10000px;
+    height: 55px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;         
+    span{
+        font-size: 90%;
+    }
+}
